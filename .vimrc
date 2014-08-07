@@ -52,11 +52,12 @@ set number
 nnoremap <F1> :set nonumber!<CR>
 set hlsearch
 set ignorecase
+set expandtab
+set shiftwidth=2
+set softtabstop=2
 
 "execute pathogen#infect()
 "syntax on
-
-"filetype plugin indent on
 
 syntax enable
 
