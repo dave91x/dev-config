@@ -37,5 +37,5 @@ alias startredis='~/Applications/redis-server ~/.redis-server.conf'
 alias stopredis='kill -9 `cat ~/.redis.pid`'
 
 # node/npm related stuff
-alias npmlist='ls `npm root -g`'
+alias npls='npm list -g --depth=0'
 
