@@ -15,6 +15,7 @@ alias pull='svn up'
 alias push="svn ci -m ''"
 alias svnbigadd='svn status | grep "^\?" | cut -c8- | xargs svn add'
 
+alias giti='ssh -p 30123 git@23.253.71.153 info'
 alias gits='git status'
 alias gita='git add -A'
 alias gitc='git commit -a -m '
