@@ -22,6 +22,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'JulesWang/css.vim'
 Plugin 'cakebaker/scss-syntax.vim'
+Plugin 'heartsentwined/vim-emblem'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'tpope/vim-sensible'
 Plugin 'tpope/vim-surround'
@@ -52,8 +53,8 @@ filetype plugin indent on    " required
 set ruler
 set cursorline
 set autoindent
-set number
-nnoremap <F1> :set nonumber!<CR>
+set nonumber
+nnoremap <F2> :set number!<CR>
 set hlsearch
 set ignorecase
 set expandtab
@@ -93,5 +94,5 @@ colorscheme solarized
 " Mappings
 
 "Give a shortcut key to NERD Tree
-map <F2> :NERDTreeToggle<CR>
+map <F1> :NERDTreeToggle<CR>
 
