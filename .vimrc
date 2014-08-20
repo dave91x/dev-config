@@ -92,7 +92,11 @@ colorscheme solarized
 "colorscheme zellner
 
 " Mappings
+" <Leader> key by default is:  \
 
 "Give a shortcut key to NERD Tree
-map <F1> :NERDTreeToggle<CR>
+map <silent> <F1> :NERDTreeToggle<CR>
 
+"nnoremap <Leader>p <c-w>w
+nnoremap 5 <c-w>W
+nnoremap 6 <c-w>w
