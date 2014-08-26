@@ -30,6 +30,8 @@ Plugin 'tpope/vim-rails'
 Plugin 'tpope/vim-bundler'
 Plugin 'elzr/vim-json'
 Plugin 'jgdavey/tslime.vim'
+Plugin 'wavded/vim-stylus'
+"Plugin 'dsawardekar/ember.vim'
 
 " colorscheme stuff
 Plugin 'flazz/vim-colorschemes'
