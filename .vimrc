@@ -57,7 +57,8 @@ set cursorline
 set autoindent
 set nonumber
 nnoremap <F2> :set number!<CR>
-set hlsearch
+set hlsearch!
+nnoremap <F3> :set hlsearch!<CR>
 set ignorecase
 set expandtab
 set shiftwidth=2
