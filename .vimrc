@@ -31,6 +31,7 @@ Plugin 'tpope/vim-bundler'
 Plugin 'elzr/vim-json'
 Plugin 'jgdavey/tslime.vim'
 Plugin 'wavded/vim-stylus'
+Plugin 'digitaltoad/vim-jade'
 "Plugin 'dsawardekar/ember.vim'
 
 " colorscheme stuff
