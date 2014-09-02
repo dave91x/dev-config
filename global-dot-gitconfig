@@ -1,0 +1,20 @@
+[user]
+	name = Dave
+	email = dave91x@example.com
+[alias]
+	co = checkout
+[core]
+	editor = vim
+	autocrlf = input
+[color]
+	ui = true
+[merge]
+	tool = opendiff
+[push]
+	default = simple
+[pull]
+	rebase = true
+[branch]
+	autosetuprebase = always
+[rerere]
+	enabled = true
